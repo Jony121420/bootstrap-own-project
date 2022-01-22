@@ -1,0 +1,51 @@
+.my-bg{
+   background-color: #fceceb;
+}
+.image img{
+   width: 100px;
+}
+.image img:hover{
+  transform: scale(1.3);
+  transition: transform 1s ease-out;
+}
+.sub{
+   height: 350px;
+ 
+}
+.my-btn{
+   background-image: linear-gradient(to bottom, #FF589B 0%, #ff4b92 100%);
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+}
+
+.margin{
+   margin-left: 85%;
+}
+.hov img:hover{
+   transform: scale(1.2);
+  transition: transform 1s ease-out;
+
+}
+.my-btn:hover{
+   background-image: linear-gradient(to bottom, #10706b 0%, #0f92a3 100%);
+   padding: 9px 30px;
+   transition: background-color 1s ease-in-out ,padding 1s ease-in-out ;
+   color: white;
+   
+}
+
+@media only screen and (max-width:576px) {
+   .margin{
+      margin-left: 40%;
+   }
+   .customm img{
+      width: 80px;
+      height: 50px;
+    
+
+    
+   }
+   
+}
